@@ -1,4 +1,4 @@
-var hora = new Date().getHours;
+let hora = new Date().getHours;
 
 if ( hora < 12 ) {
     console.log('Bom dia');    

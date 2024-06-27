@@ -1,5 +1,5 @@
-var opcao = 'Node';
-var curso;
+let opcao = 'Node';
+let curso;
 switch(opcao){
     case 'Java':
         curso = 'Java';

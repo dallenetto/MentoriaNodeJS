@@ -5,7 +5,7 @@ const people = [
 { name: 'Marta', age: 31},
 ];
 
-var adults = people.reduce ( (acc, curr)=> {
+let adults = people.reduce ( (acc, curr)=> {
     if (curr.age >= 18) {
         acc.push(curr);
     }
